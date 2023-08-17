@@ -1,0 +1,17 @@
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\bin\Debug\net7.0\OrdersManager.Infrastructure.deps.json
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\bin\Debug\net7.0\OrdersManager.Infrastructure.runtimeconfig.json
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\bin\Debug\net7.0\OrdersManager.Infrastructure.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\bin\Debug\net7.0\OrdersManager.Infrastructure.pdb
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\bin\Debug\net7.0\OrdersManager.Core.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\bin\Debug\net7.0\OrdersManager.Core.pdb
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.AssemblyInfo.cs
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.csproj.CopyComplete
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\refint\OrdersManager.Infrastructure.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.pdb
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\OrdersManager.Infrastructure.genruntimeconfig.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Infrastructure\obj\Debug\net7.0\ref\OrdersManager.Infrastructure.dll

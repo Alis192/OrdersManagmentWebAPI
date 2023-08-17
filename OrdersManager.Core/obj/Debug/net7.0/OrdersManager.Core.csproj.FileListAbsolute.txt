@@ -1,0 +1,12 @@
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\bin\Debug\net7.0\OrdersManager.Core.deps.json
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\bin\Debug\net7.0\OrdersManager.Core.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\bin\Debug\net7.0\OrdersManager.Core.pdb
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.csproj.AssemblyReference.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.AssemblyInfoInputs.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.AssemblyInfo.cs
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\refint\OrdersManager.Core.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\OrdersManager.Core.pdb
+C:\Users\alido\source\ASP\OrdersWebAPISolution\OrdersManager.Core\obj\Debug\net7.0\ref\OrdersManager.Core.dll
