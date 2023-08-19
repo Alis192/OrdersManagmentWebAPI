@@ -4,11 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using OrdersManager.Core.Entities;
 using OrdersManager.Infrastructure.DatabaseContext;
 
-namespace Orders.WebAPI.Controllers
+namespace Orders.WebAPI.Controllers.v1
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class OrderController : ControllerBase
+    [ApiVersion("1.0")]
+    public class OrderController : CustomControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
 
@@ -26,7 +25,7 @@ namespace Orders.WebAPI.Controllers
         public async Task<ActionResult<IEnumerable<Order>>> GetOrder()
         {
             var order = await _dbContext.Orders.ToListAsync();
-            
+
             return Ok(order);
         }
 
@@ -71,11 +70,11 @@ namespace Orders.WebAPI.Controllers
             }
 
             existingOrder.CustomerName = order.CustomerName; //Modifying Property of existing order from DB
-            
+
             try
             {
                 await _dbContext.SaveChangesAsync(); //Updating database with new property value
-            } 
+            }
             catch (DbUpdateConcurrencyException) //If multiple changes made to DB simultaneously, an exception will be generated
             {
                 if (!OrderExists(orderId))
@@ -97,7 +96,7 @@ namespace Orders.WebAPI.Controllers
         /// <param name="order"></param>
         /// <returns></returns>
         [HttpPost]
-        public async Task<ActionResult<Order>> PostOrder([Bind(nameof(Order.CustomerName))] Order order) 
+        public async Task<ActionResult<Order>> PostOrder([Bind(nameof(Order.CustomerName))] Order order)
         {
             //Internally this code is created by AspNetCore
 
@@ -109,7 +108,7 @@ namespace Orders.WebAPI.Controllers
             _dbContext.Orders.Add(order);
             await _dbContext.SaveChangesAsync();
 
-            return CreatedAtAction("GetOrderById", new { id = order.OrderID}, order);
+            return CreatedAtAction("GetOrderById", new { id = order.OrderID }, order);
         }
 
 
@@ -123,7 +122,7 @@ namespace Orders.WebAPI.Controllers
         {
             var order = await _dbContext.Orders.FindAsync(id);
 
-            if(order == null)
+            if (order == null)
             {
                 return NotFound();
             }
@@ -201,7 +200,7 @@ namespace Orders.WebAPI.Controllers
                 return NotFound();
             }
 
-            if (existingOrderItem.OrderId != orderId) 
+            if (existingOrderItem.OrderId != orderId)
             {
                 return BadRequest();
             }
@@ -209,7 +208,7 @@ namespace Orders.WebAPI.Controllers
 
             //Modifying Property of existing order from DB
             existingOrderItem.ProductName = orderItem.ProductName;
-            existingOrderItem.Quantity= orderItem.Quantity;
+            existingOrderItem.Quantity = orderItem.Quantity;
             existingOrderItem.UnitPrice = orderItem.UnitPrice;
 
 
@@ -277,4 +276,4 @@ namespace Orders.WebAPI.Controllers
             return (_dbContext.OrdersItem?.Any(o => o.OrderItemId == id)).GetValueOrDefault();
         }
     }
-}   
+}

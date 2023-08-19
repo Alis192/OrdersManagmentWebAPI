@@ -78,3 +78,5 @@ C:\Users\alido\source\ASP\OrdersWebAPISolution\Orders.WebAPI\bin\Debug\net7.0\Or
 C:\Users\alido\source\ASP\OrdersWebAPISolution\Orders.WebAPI\bin\Debug\net7.0\OrdersManager.Infrastructure.dll
 C:\Users\alido\source\ASP\OrdersWebAPISolution\Orders.WebAPI\bin\Debug\net7.0\OrdersManager.Core.pdb
 C:\Users\alido\source\ASP\OrdersWebAPISolution\Orders.WebAPI\bin\Debug\net7.0\OrdersManager.Infrastructure.pdb
+C:\Users\alido\source\ASP\OrdersWebAPISolution\Orders.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\alido\source\ASP\OrdersWebAPISolution\Orders.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
