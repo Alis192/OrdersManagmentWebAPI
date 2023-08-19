@@ -37,4 +37,4 @@ _Feel free to fork the project, create a feature branch, and send us a pull requ
 _This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details._
 
 ## Support
-_For any questions or support, please email support@example.com._
+_For any questions or support, please email alidov363@gmail.com._
